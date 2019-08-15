@@ -1,0 +1,29 @@
+<template name="Component-name">
+  <div>
+    <!-- JSX -->
+    <p>{this.state.title}</p>
+  </div>
+</template>
+<script>
+  // JS
+  export default class {
+    constructor(props) {
+      super(props)
+      this.state = {
+        title: "参加考试"
+      }
+    }
+    componentDidMount() {}
+  }
+
+</script>
+<style lang="scss">
+  /* CSS */
+  p {
+    color: #2356c5;
+    font-size: 25px;
+    line-height: 600px;
+    text-align: center;
+  }
+
+</style>

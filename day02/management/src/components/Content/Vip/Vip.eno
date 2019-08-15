@@ -1,0 +1,29 @@
+<template name="Component-name">
+  <div>
+    <!-- JSX -->
+    <p>{this.state.title}</p>
+  </div>
+</template>
+<script>
+  // JS
+  export default class {
+    constructor(props) {
+      super(props)
+      this.state = {
+        title: "VIP"
+      }
+    }
+    componentDidMount() {}
+  }
+
+</script>
+<style lang="scss">
+  /* CSS */
+  p {
+    color: #7740df;
+    font-size: 25px;
+    line-height: 600px;
+    text-align: center;
+  }
+
+</style>
